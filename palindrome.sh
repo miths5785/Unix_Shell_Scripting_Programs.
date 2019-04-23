@@ -13,7 +13,7 @@ do
 done
 if [ $on -eq $rev ]
 then
-        echo "Number is Palindrome"
+        echo "Number Is Palindrome"
 else
-        echo "Number is not a Palindrome"
+        echo "Number Is Not Palindrome"
 fi
