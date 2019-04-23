@@ -1,7 +1,7 @@
-echo "Input the Numbers"
+echo "Input The Numbers"
 read a
 read b
-echo "Input choice"
+echo "Input Choice"
 read x
 case $x in
 	+)echo $(( $a + $b ));;
