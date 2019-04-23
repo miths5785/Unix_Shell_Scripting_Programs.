@@ -1,4 +1,4 @@
-echo "Enter the number"
+echo "Enter The Number"
 read x
 a=0
 b=1
@@ -8,9 +8,9 @@ echo $a
 echo $b
 while [ $i -lt $x ]
 do
-  sum=$(( $a + $b ))
-  echo $sum
-  a=$b
-  b=$sum
-  i=$(( $i + 1 ))
+    sum=$(( $a + $b ))
+    echo $sum
+    a=$b
+    b=$sum
+    i=$(( $i + 1 ))
 done
