@@ -9,13 +9,13 @@ b=$y
 c=$z
 if [ $a -gt $b -a $a -gt $c ]
 then
-        echo "$a is largest number"
+        echo "$a Is The Largest Number"
 elif [ $b -gt $a -a $b -gt $c ]
 then
-        echo "$b is largest number"
+        echo "$b Is The Largest Number"
 elif [ $c -gt $a -a $c -gt $b ]
 then
-        echo "$c is largest number"
+        echo "$c Is The Largest Number"
 else
-        echo "Sorry cannot guess number"
+        echo "Sorry Cannot Guess The Number"
 fi
