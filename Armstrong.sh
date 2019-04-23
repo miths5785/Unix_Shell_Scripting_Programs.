@@ -1,4 +1,4 @@
-echo "Enter the value"
+echo "Enter The Value"
 read x
 b=0
 m=$x
